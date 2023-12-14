@@ -1,0 +1,27 @@
+.testimonial{
+    overflow: hidden;
+}
+@media only screen and (max-width: 768px){
+.testimonial p {
+ font-size: 0.8rem;
+ line-height: 1.5rem;
+}
+
+.testimonial h6 {
+    font-size: 1rem;
+}
+
+}
+@media only screen and (max-width: 576px){
+.testimonial img{
+    width: 50px !important;
+    height: 50px !important ;
+    object-fit: cover;
+}
+.testimonial p{
+    font-size: 0.7rem;
+}
+.testimonial{
+    overflow: hidden;
+}
+}

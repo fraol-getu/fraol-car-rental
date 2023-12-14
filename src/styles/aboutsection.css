@@ -1,0 +1,45 @@
+.about-section-item{
+    column-gap: 3rem;
+    
+
+}
+.about-section-item p i{
+    color: #f9a826;
+   font-size: 1.1rem;
+}
+
+@media only screen and (max-width: 992px) {
+ 
+.about-section-contet h2 {
+    font-size: 1.5rem;
+
+}
+.about-section-item{
+    column-gap: 3rem;
+}
+.about-section-item p{
+    font-size: 0.6rem;
+
+}
+.section-description i {
+    font-size: 0.8rem !important;
+}
+
+}
+@media only screen and (max-width: 768px) {
+.about-img{
+      margin-top: 30px;
+}
+.about-section{
+  margin-top: 250px;      
+}
+
+
+
+
+}
+@media only screen and (max-width: 576px) {
+    .about-section{
+        margin-top: 280px;
+    }
+}

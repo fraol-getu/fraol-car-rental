@@ -1,0 +1,69 @@
+.blog-publisher span i{
+    color: #f9a826;
+}
+blockquote{
+    line-height: 35px;
+}
+.single-comment img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: 2px solid  #000d6b;
+    object-fit: cover;
+
+}
+.replay{
+    color: #000d6b;
+    font-weight: 600;
+    cursor: pointer;
+}
+.leave-comment-form input, .leave-comment-form textarea{
+    border: 1px solid rgba(0, 12, 107, 0.118);
+}
+.leave-comment-form textarea:focus {
+    outline: none;
+}
+.comment-btn{
+    background: #000d6b;
+    color: #fff !important;
+}
+.recent-blog-item h6 a {
+  text-decoration: none;
+  color: #000d6b;
+  font-weight: 600;
+  
+}
+@media only screen and (max-width:760px) {
+     .recent-post{
+        margin-top: -30px;
+     }
+     .leave-comment-form input, .leave-comment-form textarea{
+        font-style: 0.7rem;
+
+    }
+    .comment-btn{
+     padding: 5px 10px;
+     font-size: .8rem;
+     margin-top: 8px !important;
+
+
+    }
+    .leave-comment-form h4{
+        font-size: 1.2rem;
+    }
+    .single-comment img {
+        width: 40px;
+        height: 40px ;
+    }
+     .comment-content p{
+        font-size: 0.8rem;
+        line-height: 1.4rem;
+     }
+     .blog-details p{
+      font-size: .8rem;
+      line-height: 1.4rem;
+
+     }
+
+
+}

@@ -1,13 +1,114 @@
-body {
+/* gogle fontas */
+
+ @import url('https://fonts.cdnfonts.com/css/source-sans-pro');
+
+                
+/* base style */
+ * {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  font-family: 'Source Sans Pro', sans-serif
+  }
+  /* pre define css */
+
+  h1,h2,h3,h4,h5,h6{
+    color: #000d6b;
+    font-weight: 600;
+    margin-bottom: 0;
+  }
+  h3,h4{
+    font-size: 1.8rem;
+    
+  }
+  h5,h6{
+    font-size: 1.2rem;
+  }
+  a{
+    text-decoration: none;
+    color: unset;
+  }
+  a:hover{
+    color: unset;
+  }
+  ul{
+    margin: 0;
+    list-style: none;
+  }
+
+
+  .section-title{
+   color:  #000d6b;
+ font-weight: 600;
+ font-size: 2rem;
+  }
+
+  .section-subtitle{
+    color: #f9a826;
+    font-weight: 600;
+    font-size: 1.2rem;
+  }
+
+  .section-description{
+    color: #7c8a97;
+    font-size: .9rem;
+    line-height: 30px;
+  }
+  section{
+    padding: 50px 0px;
+    }
+
+  .btn{
+   padding: 7px 15px;
+   background:  #000d6b;
+   color: #fff;
+   border: none;
+   outline: none;
+   border-radius: 5px;
+  }
+  
+  .btn:hover{
+    color: #fff !important;
+    background:#000d6b !important;
+  }
+
+  @media only screen and (max-width:768px) {
+    section{
+      padding: 30px 0px;
+    }
+   .section-title{
+    font-size: 1.6rem;
+  }
+
+  .section-subtitle{
+  font-size: 1.1rem;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
