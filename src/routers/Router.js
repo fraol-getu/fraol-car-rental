@@ -4,9 +4,6 @@ import Blog from '../pages/Blog'
 import BlogDetails from '../pages/BlogDetails'
 import CarDetails from '../pages/CarDetails'
 import CarListng from '../pages/CarListng'
-
-
-
 import Home from "../pages/Home";
 import Contact from "../pages/Contact";
 const Routers = () => {
