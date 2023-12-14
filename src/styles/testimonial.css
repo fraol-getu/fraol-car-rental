@@ -1,6 +1,4 @@
-.testimonial{
-    overflow: hidden;
-}
+
 @media only screen and (max-width: 768px){
 .testimonial p {
  font-size: 0.8rem;
@@ -20,8 +18,6 @@
 }
 .testimonial p{
     font-size: 0.7rem;
-}
-.testimonial{
-    overflow: hidden;
+   
 }
 }

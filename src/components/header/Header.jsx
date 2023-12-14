@@ -116,7 +116,7 @@ import React, { useState } from 'react'
 {menuopen ? (<i class="ri-close-line" style={{color:menuopen ? "black" : "white",}}></i>)  : (<i class='ri-menu-line'></i>) }
 </span>
 
-  <div className="navigation">
+  <div className="navigation" style={{zIndex:menuopen ? "76" : "-76"}}>
 
    <div className={menuopen ? "media-menu" : "menu"}>
 

@@ -185,14 +185,14 @@ background: #020a4de9;
      position:  fixed;
      top: 0;
      left: 0;
-     z-index: 99;
+      
 }
 .menu{
     display: none;
 }
 
 .media-menu{
-   z-index: 100;
+   z-index: 9999;
     width: 250px;
    height: 50%;
    background: #fff; 
