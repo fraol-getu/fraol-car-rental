@@ -21,7 +21,7 @@ return (
 <Route path="/blogs" element={<Blog/>} />
 <Route path="/blogs/:slug" element={<BlogDetails/>} />
 <Route path="/contact" element={<Contact/>} />
-<Route path="/*" element={<NotFound/>} />
+
 
 
 

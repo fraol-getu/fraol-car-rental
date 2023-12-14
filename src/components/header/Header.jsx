@@ -2,7 +2,7 @@ import React, { useState } from 'react'
  import { Container, Row, Col } from 'reactstrap'
  import { Link, NavLink } from 'react-router-dom'
  import "../../styles/header.css"
- import OutsideClickHandler from 'react-outside-click-handler'
+ 
  
  const navLinks = [
  {
