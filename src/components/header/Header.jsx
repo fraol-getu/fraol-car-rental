@@ -110,13 +110,14 @@ import React, { useState } from 'react'
  {/* main navigation */}
   <div className="main-navbar">
    <Container>
+   
    <div className="navigation-wrapper d-flex align-items-center justify-content-between">
 <span className='mobile-menu' onClick={() => {SetMenuOpen(!menuopen)}}>
 {menuopen ? (<i class="ri-close-line" style={{color:menuopen ? "black" : "white",}}></i>)  : (<i class='ri-menu-line'></i>) }
 </span>
 
   <div className="navigation">
-  <OutsideClickHandler onOutsideClick={() => {SetMenuOpen(false)}} >
+
    <div className={menuopen ? "media-menu" : "menu"}>
 
     {navLinks.map((items, i) => (
@@ -124,7 +125,6 @@ import React, { useState } from 'react'
     ? 'nav-active nav-item': 'nav-item'}>{items.display}</NavLink>
  ))}
   </div>
-  </OutsideClickHandler>
 </div>
 
   <div className="nav-right">
