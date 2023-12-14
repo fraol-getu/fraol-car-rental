@@ -2,7 +2,7 @@ import React, { useState } from 'react'
  import { Container, Row, Col } from 'reactstrap'
  import { Link, NavLink } from 'react-router-dom'
  import "../../styles/header.css"
- 
+ import OutsideClickHandler from 'react-outside-click-handler'
  
  const navLinks = [
  {
@@ -114,14 +114,19 @@ import React, { useState } from 'react'
 <span className='mobile-menu' onClick={() => {SetMenuOpen(!menuopen)}}>
 {menuopen ? (<i class="ri-close-line" style={{color:menuopen ? "black" : "white",}}></i>)  : (<i class='ri-menu-line'></i>) }
 </span>
+
   <div className="navigation">
+  <OutsideClickHandler onOutsideClick={() => {SetMenuOpen(false)}} >
    <div className={menuopen ? "media-menu" : "menu"}>
+
     {navLinks.map((items, i) => (
      <NavLink to={items.path} key={i} className={navClass => navClass.isActive
     ? 'nav-active nav-item': 'nav-item'}>{items.display}</NavLink>
  ))}
   </div>
+  </OutsideClickHandler>
 </div>
+
   <div className="nav-right">
     <div className="search-box"> 
     <input type="text" placeholder='Search'/>
